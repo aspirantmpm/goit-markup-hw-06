@@ -782,6 +782,7 @@ img {
   height: 581px;
   border-radius: 4px;
   background-color: var(--modal-color);
+  padding: 40px;
 }
 
 .close {
@@ -817,14 +818,12 @@ img {
 
 /* Modal form */
 
-.modal-form {
-  width: 448px;
-  height: 342px;
-  margin: 12px 40px 20px 40px;
+.form-field:last-child {
+  margin-bottom: 20px;
 }
 
 .form-name {
-  margin: 40px 40px 0 40px;
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
   line-height: calc(23 / 20);
@@ -838,6 +837,10 @@ img {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+}
+
+.form-field.text {
+  margin-bottom: 20px;
 }
 
 .input {
